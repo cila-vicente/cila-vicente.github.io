@@ -1,0 +1,157 @@
+/*
+CORES
+laranja:    #f6a970
+salmão:     #f8cbaa
+azul:       #3d5255
+verde:      #80bdb0 rgba(128, 189, 176, 28)
+
+FONTES
+Títulos:    Amatic SC
+font-family:    'Amatic SC', cursive;
+Sub-títulos:    Open Sans Condensed
+font-family:    'Open Sans Condensed', sans-serif;
+font-wheight:   bold
+
+texto:          Open Sans Condensed
+font-family:    'Open Sans Condensed', sans-serif;
+
+*/
+/* reset:  */
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #3d5255;
+}
+body {
+    line-height: 1;
+    position: relative;
+    background-image: url('../images/contato-bg.png');
+    background-size: auto 130vh;
+    background-position-x: center;
+    background-position-y: -20vh;
+    background-attachment: fixed;
+}
+.background-blocker {
+    position: absolute;    
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 200vh;
+    background-color: #ffffff;
+}
+.background {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.left-ball {
+    background-color: #f6a970;
+    position: fixed;
+    left: -10%;
+    bottom: -10%;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+}
+.right-ball {
+    background-color: #80bdb0;
+    position: fixed;
+    right: -10%;
+    top: -10%;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+a {
+    text-decoration: none;
+}
+section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 11;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #f8cbaa;
+}
+.underline {
+    border-bottom: 5px solid #f8cbaa;
+    margin-top: 10vh;
+    margin-bottom: 25px;
+    padding: 25px 5px;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 9em;
+    text-transform: uppercase;
+    color: #3d5255;
+    position: relative;
+}
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.75em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 5px 5px;
+}
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4.5em;
+    text-transform: uppercase;
+}
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.75em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 1.5em;
+}
+p {
+    font-size: 2em;
+}
+.titulo > img {
+    max-width: 100%;
+    height: auto;
+}
+.titulo {
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+}
+.titulo > img {
+    min-width: 50%;
+    float: right;
+    position: relative;
+    z-index: 99;
+}
+#Sobre > img {
+    position: absolute;
+}
+.left-image {
+    left: 10px;
+    width: 40vw;
+    top: 150px;
+}
+.right-image {
+    right: 10px;
+    bottom: 0;
+    width: 15vw;
+}
+.conteudo {
+    width: 40vw;
+    margin-left: 42vw;
+    margin-top: 10vh;
+    z-index: 99;
+}
+.dados{
+    padding: 35px;
+    max-width: 25vw;
+}   
