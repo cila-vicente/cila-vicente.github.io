@@ -29,7 +29,7 @@ font-family:    'Open Sans Condensed', sans-serif;
 body {
     line-height: 1;
     position: relative;
-    background-image: url('./images/contato-bg.png');
+    background-image: url('/images/contato-bg.png');
     background-size: auto 130vh;
     background-position-x: center;
     background-position-y: -20vh;
